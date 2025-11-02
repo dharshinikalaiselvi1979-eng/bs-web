@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memosky</title>
+    <link rel="stylesheet" href="bs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>MEMOSKY</h1>
+
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>MY FIRST YEAR IN KALVIUM</h2>
+            <br>
+        
+            <h8>FRESHER AND A SCRATCH LEARNER,I'M BEGINNING TO BE PRODUCTIVE!</h8><br>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus error similique nihil ab amet nostrum hic tenetur, voluptatibus atque a quas quam totam, magnam, facere ex iste obcaecati officiis fuga?</p>
+            <br>
+            <button onclick="delm(event)">DELETE</button>
+
+        </div>
+
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h1>ADD A MEMORABLE MOMENT</h1>
+        <br>
+        <form>
+            <input type="text" placeholder="WHEN" id="add-t-input"><br>
+            <input type="text" placeholder="CONTEXT"id="add-c-input"><br>
+            <textarea placeholder="SHORT DESCRIPTION" id="description"></textarea><br>
+            <button type="button" id="add-book">ADD</button>
+            <button type="button" id="cancel-button">CANCEL</button>
+
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="bs.js"></script>
+    
+</body>
+</html>
